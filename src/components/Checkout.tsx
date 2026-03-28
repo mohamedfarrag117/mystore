@@ -17,7 +17,19 @@ function Checkout(): JSX.Element {
 
   const handlePlaceOrder = (): void => {
     dispatch(clearCart());
-    toast.success("Order placed successfully! 🎉");
+    toast.success("Order placed successfully!", {
+      icon: (
+        <i
+          className="fa-solid fa-check"
+          style={{ color: "#50C878", fontWeight: "600" }}
+        ></i>
+      ),
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
     navigate("/");
   };
 
