@@ -9,7 +9,7 @@ function Footer(): JSX.Element {
         <div>
           <Link to="/" className="flex items-center gap-2 mb-4">
             <i className="fa-brands fa-shopify text-3xl text-[#F83539]"></i>
-            <span className="font-bold text-xl text-white">MY SHOP</span>
+            <span className="font-bold text-xl text-white">MY STORE</span>
           </Link>
           <p className="text-gray-400">
             Discover the best products with amazing prices. Your one-stop
@@ -108,7 +108,7 @@ function Footer(): JSX.Element {
             </li>
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-envelope text-[#F83539]"></i>
-              <span>support@myshop.com</span>
+              <span>support@mystore.com</span>
             </li>
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-clock text-[#F83539]"></i>
@@ -123,7 +123,7 @@ function Footer(): JSX.Element {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-7xl mx-auto px-10 py-5 ">
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()}{" "}
-            <span className="text-[#F83539] font-semibold">MY SHOP</span>. All
+            <span className="text-[#F83539] font-semibold">MY STORE</span>. All
             rights reserved.
           </p>
 
